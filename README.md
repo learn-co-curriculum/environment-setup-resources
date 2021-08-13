@@ -71,8 +71,11 @@ there.
 
 Command: `git clone <repo name>`
 
-Error:  (Mac) `ssh: connect to host github.com port 22: Operation timed out`
-        (Ubuntu) `Connection reset by 140.82.112.4 port22`
+Error:  
+
+(Mac) `ssh: connect to host github.com port 22: Operation timed out`
+
+(Ubuntu) `Connection reset by 140.82.112.4 port22`
 
 Fix (at least this time around):
 
