@@ -16,13 +16,21 @@ issue, **please submit an issue or pull request to this repo**!
 ### Installing GMP
 
 Command: `brew install gmp`
+
 Error: `fatal: Could not resolve HEAD to a revision...`
+
 Fix: `git -C $(brew --repository homebrew/core) checkout master`
+
 See: https://stackoverflow.com/questions/65605282/trying-to-install-hugo-via-homebrew-could-not-resolve-head-to-a-revision
 
+---
+
 Command: `brew install gmp`
+
 Error: `No similarly named formulae found...`
+
 Fix: `brew update-reset` may work
+
 OR (from [this github thread](https://github.com/Homebrew/discussions/discussions/1160#discussioncomment-547009)):
 
 ```bash
@@ -30,22 +38,30 @@ rm -fr $(brew --repo homebrew/core)
 brew tap homebrew/core
 ```
 
+---
+
 Command: `brew install gmp`
+
 Error: `cannot install in homebrew on arm processor in intel default prefix`
+
 Fix: `export PATH=/opt/homebrew/bin:$PATH`
 
 ### Installing Ruby
 
 Command: `gem install Ruby`
+
 Error: `No binary rubies available...Error running ‘__rvm_make -j16’`
+
 Fix: Solution 2 from [this article](https://medium.com/flawless-app-stories/gyp-no-xcode-or-clt-version-detected-macos-catalina-anansewaa-38b536389e8d)
 
 ### Installing ZSH
 
 Error: Frozen terminal after installing ZSH
+
 Cause: usually they already had ZSH installed at the `/bin/zsh` path but the
 setup guide walks them through adding it to `/usr/local/bin/zsh` so the
 terminal cannot find the right path when it starts up
+
 Fix: with terminal open navigate to Terminal>Preferences. From there
 make sure the “General” tab is selected and have them select `Command` radio
 button under the `Shells open with:` section. Ensure `/bin/zsh` is being used
@@ -54,8 +70,10 @@ there.
 ### Cloning Labs
 
 Command: `git clone <repo name>`
+
 Error:  (Mac) `ssh: connect to host github.com port 22: Operation timed out`
         (Ubuntu) `Connection reset by 140.82.112.4 port22`
+
 Fix (at least this time around):
 
 - Create a `~/.ssh/config` file IF they don’t already have one
@@ -70,7 +88,9 @@ Port 443
 ### Running npm install
 
 Command: `npm install`
+
 Error: `command not found: npm`
+
 Possible Fix:
 
 - run `nvm list` to ensure that a default version of node it set
@@ -87,19 +107,25 @@ Possible Fix:
 ### Setting up Git/GitHub
 
 Issue: Need to remove SSH passphrase
-See [this resource](https://www.simplified.guide/ssh/set-remove-passphrase)
+
+Fix: See [this resource](https://www.simplified.guide/ssh/set-remove-passphrase)
 
 ### Misc
 
 Error: `Compinit insecure directories`
+
 Fix: `compaudit | xargs chmod g-w`
 
+---
+
 Error (when running tests): `TypeError: Cannot set property 'isExternal' of undefined`
+
 Fix: Delete local repo, re-clone, don’t run ‘npm audit fix’
 
 ### Installing Ubuntu
 
 Error in Ubuntu app: `Error 0x80080005 Server execution failed`
+
 Fix:
 
 - Press `Windows key`+R to open "Run" dialog. type: `optionalfeatures.exe` and hit Enter
@@ -120,12 +146,16 @@ When starting up Ubuntu for the first time after restart that is required from
 enabling WSL settings:
 
 Error: WslRegisterDistribution failed with error: 0x80370102
+
 Fix: Try one of the solutions in [this article](https://appuals.com/wsl-register-distribution-error-0x80370102-on-windows-10/).
 “Solution 1” worked for the one and only student that has encountered this error
+
+---
 
 Upon opening Ubuntu terminal:
 
 Error: `404:: command not found`
+
 Fix: open .bashrc file (`code ~/.bashrc`) and scroll to bottom or search the
 file for that error text and just delete it. Save the file. Close out of the
 terminal and open again to confirm that text doesn’t appear again.
@@ -133,6 +163,7 @@ terminal and open again to confirm that text doesn’t appear again.
 ### Ubuntu: Trying to Push a Lab
 
 Command: `git push ...`
+
 Error:
 
 ```bash
@@ -175,6 +206,6 @@ Windows:
 
 - [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal)
 
-### Heroko Setup
+### Heroko Setup (Phase 4)
 
 - [Deploying to Heroku](https://github.com/learn-co-curriculum/phase-4-deploying-rails-api-to-heroku) (see the Environment Setup section)
