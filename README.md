@@ -206,6 +206,6 @@ Windows:
 
 - [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal)
 
-### Heroko Setup (Phase 4)
+### Heroku Setup (Phase 4)
 
 - [Deploying to Heroku](https://github.com/learn-co-curriculum/phase-4-deploying-rails-api-to-heroku) (see the Environment Setup section)
