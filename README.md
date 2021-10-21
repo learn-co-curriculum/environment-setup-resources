@@ -160,6 +160,21 @@ Fix: open .bashrc file (`code ~/.bashrc`) and scroll to bottom or search the
 file for that error text and just delete the text. Save the file. Close out of Ubuntu
 and reopen to confirm that text doesn’t appear again.
 
+### Ubuntu: Installing NVM:
+
+Command: `curl -o- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
+
+Error: `0curl: (6) Could not resolve host: curl`
+
+Fix: Navigate to current internet settings via Control Panel (Wifi, Ethernet, etc) and disable IPv6
+[Step by Step Guide](https://networking.grok.lsu.edu/article.aspx?articleid=17573)
+
+> Note: Googling around brings up the fact that permanentely disabling these settings can cause other issues, 
+> so maybe have them try to re-check that setting once things are installed - if this fix helped to get past the error of course.
+> I have had other students disable this specific setting before to solve other errors, and never re-enabled it, so I think they should
+> be fine as far as working through our curriculum with that disabled. But making sure the student remains aware of this disabled setting
+> could be helpful for future issues they *might* encounter.
+
 ### Ubuntu: Trying to Push a Lab
 
 Command: `git push ...`
