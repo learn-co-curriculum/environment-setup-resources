@@ -194,6 +194,10 @@ wsl --set-default-version 1
 wsl --set-version Ubuntu 1
 ```
 
+### JS Lessons: Embedded Replit Editors Not Displaying in Lesson Page(s)
+
+Make sure cookies are enabled!
+
 ## Flatiron School Local Environment Setup Lessons
 
 ### Initial Setup (Prework)
