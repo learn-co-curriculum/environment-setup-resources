@@ -111,6 +111,13 @@ Possible Fix:
   just run `npm` in any directory to check that the "command not found error"
   does not appear again
 
+### Running bundle
+Command: `bundle`
+
+Error: `An error occurred while installing racc (1.6.0), and Bundler cannot continue`
+
+Fix: `xcode-select install`
+
 ### Setting up Git/GitHub
 
 Issue: Need to remove SSH passphrase
