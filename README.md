@@ -216,6 +216,7 @@ MacOS:
 - [MacOS NodeJS Install](https://github.com/learn-co-curriculum/phase-0-macos-env-nodejs)
 - [Installing Ruby on MacOS](https://github.com/learn-co-curriculum/phase-0-macos-env-ruby)
 - [MacOS Git and GitHub Configuration](https://github.com/learn-co-curriculum/phase-0-macos-env-git-github)
+- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal)
 - [MacOS Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-macos-env-verification)
 
 Windows:
@@ -226,11 +227,8 @@ Windows:
 - [Windows NodeJS Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-nodejs)
 - [Windows Ruby Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-ruby)
 - [Windows Git and GitHub Configuration](https://github.com/learn-co-curriculum/phase-0-wsl2-env-git-github)
-- [Windows Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-wsl2-env-verification)
-
-### Configure `learn-co` gem (prep for Phase 1)
-
 - [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal)
+- [Windows Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-wsl2-env-verification)
 
 ### Heroku Setup (Phase 4)
 
