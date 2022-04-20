@@ -56,7 +56,7 @@ Fix: Solution 2 from [this article](https://medium.com/flawless-app-stories/gyp-
 
 ### Installing ZSH
 
-Error: Frozen terminal after installing ZSH
+Error: Frozen terminal after installing ZSH (often with a `[process completed]` message)
 
 Fix: with Terminal open navigate to Terminal > Preferences. Select "General" tab and  
 click "Command" radio button under the "Shells open with:" section. 
