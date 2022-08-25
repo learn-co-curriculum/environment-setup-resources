@@ -46,13 +46,31 @@ Error: `cannot install in homebrew on arm processor in intel default prefix`
 
 Fix: `export PATH=/opt/homebrew/bin:$PATH`
 
-### Installing Ruby
+### Installing Ruby on Mac
 
 Command: `rvm install 2.7.4 --default`
 
 Error: `No binary rubies available...Error running ‘__rvm_make -j16’`
 
 Fix: Solution 2 from [this article](https://medium.com/flawless-app-stories/gyp-no-xcode-or-clt-version-detected-macos-catalina-anansewaa-38b536389e8d)
+
+### Installing Ruby on WSL
+
+Command: `rvm install 2.7.4 --default`
+
+Error: `Error running '__rvm_make -j4' ubuntu 22.04`
+
+Cause: In short, OpenSSL 3 is the only version of OpenSSL available to Ubuntu 22.04.
+Ruby 3.1.0 was the first version shipped with OpenSSL 3 so older versions like Ruby
+2.7.4 are incompatible.
+
+Fix: 
+
+- downgrade ubuntu to something like 20.04
+- compile a custom OpenSSL 1.1.1 and compile Ruby against this custom OpenSSL (talked about in the link above)
+- install ruby 3.1.0
+
+See [this Stack Overflow thread](https://stackoverflow.com/questions/72179373/cant-install-ruby-via-rvm-error-running-rvm-make-j4-on-ubuntu-22-04)
 
 ### Installing ZSH
 
