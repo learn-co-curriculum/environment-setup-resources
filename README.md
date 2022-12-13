@@ -232,9 +232,10 @@ MacOS:
 - [MacOS Environment Setup Introduction](https://github.com/learn-co-curriculum/phase-0-macos-env-introduction)
 - [MacOS System Setup](https://github.com/learn-co-curriculum/phase-0-macos-env-system/blob/main/README.md)
 - [MacOS NodeJS Install](https://github.com/learn-co-curriculum/phase-0-macos-env-nodejs)
-- [Installing Ruby on MacOS](https://github.com/learn-co-curriculum/phase-0-macos-env-ruby)
+- [Installing Ruby on MacOS](https://github.com/learn-co-curriculum/phase-0-macos-env-ruby) (Ruby/Rails curriculum)
+- [Installing Python on MacOS](https://github.com/learn-co-curriculum/phase-0-macos-env-python) (Python/Flask curriculum)
 - [MacOS Git and GitHub Configuration](https://github.com/learn-co-curriculum/phase-0-macos-env-git-github)
-- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal)
+- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal) (deprecated starting with 2023 cohorts)
 - [MacOS Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-macos-env-verification)
 
 Windows:
@@ -243,11 +244,12 @@ Windows:
 - [Updating Windows System and Installing Applications](https://github.com/learn-co-curriculum/phase-0-wsl2-env-system)
 - [WSL2 Setup](https://github.com/learn-co-curriculum/phase-0-wsl2-env-windows-subsystem-linux)
 - [Windows NodeJS Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-nodejs)
-- [Windows Ruby Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-ruby)
+- [Windows Ruby Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-ruby) (Ruby/Rails curriculum)
+- [Windows Python Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-python) (Python curriculum)
 - [Windows Git and GitHub Configuration](https://github.com/learn-co-curriculum/phase-0-wsl2-env-git-github)
-- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal)
+- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal) (deprecated starting with 2023 cohorts)
 - [Windows Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-wsl2-env-verification)
 
-### Heroku Setup (Phase 4)
+### Render Setup (Phase 4)
 
-- [Deploying to Heroku](https://github.com/learn-co-curriculum/phase-4-deploying-rails-api-to-heroku) (see the Environment Setup section)
+- [Deploying to Render](https://github.com/learn-co-curriculum/phase-4-deploying-rails-api-to-render) (see the Environment Setup section)
