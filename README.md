@@ -11,6 +11,37 @@ help us keep this document current and useful. If you encounter an issue or
 resource that isn't captured here, or if you find a new solution to an existing
 issue, **please submit an issue or pull request to this repo**!
 
+## Flatiron School Local Environment Setup Lessons
+
+### Initial Setup (Prework)
+
+MacOS:
+
+- [MacOS Environment Setup Introduction](https://github.com/learn-co-curriculum/phase-0-macos-env-introduction)
+- [MacOS System Setup](https://github.com/learn-co-curriculum/phase-0-macos-env-system/blob/main/README.md)
+- [MacOS NodeJS Install](https://github.com/learn-co-curriculum/phase-0-macos-env-nodejs)
+- [Installing Ruby on MacOS](https://github.com/learn-co-curriculum/phase-0-macos-env-ruby) (Ruby/Rails curriculum)
+- [Installing Python on MacOS](https://github.com/learn-co-curriculum/multiphase-macos-env-python) (Python/Flask curriculum)
+- [MacOS Git and GitHub Configuration](https://github.com/learn-co-curriculum/phase-0-macos-env-git-github)
+- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal) (deprecated starting with 2023 cohorts)
+- [MacOS Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-macos-env-verification)
+
+Windows:
+
+- [Windows Environment Setup Introduction](https://github.com/learn-co-curriculum/phase-0-wsl2-env-introduction)
+- [Updating Windows System and Installing Applications](https://github.com/learn-co-curriculum/phase-0-wsl2-env-system)
+- [WSL2 Setup](https://github.com/learn-co-curriculum/phase-0-wsl2-env-windows-subsystem-linux)
+- [Windows NodeJS Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-nodejs)
+- [Windows Ruby Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-ruby) (Ruby/Rails curriculum)
+- [Windows Python Install](https://github.com/learn-co-curriculum/multiphase-wsl-env-python) (Python curriculum)
+- [Windows Git and GitHub Configuration](https://github.com/learn-co-curriculum/phase-0-wsl2-env-git-github)
+- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal) (deprecated starting with 2023 cohorts)
+- [Windows Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-wsl2-env-verification)
+
+### Render Setup (Phase 4)
+
+- [Deploying to Render](https://github.com/learn-co-curriculum/phase-4-deploying-rails-api-to-render) (see the Environment Setup section)
+
 ## Environment Setup Troubleshooting
 
 ### Installing GMP
@@ -222,34 +253,3 @@ wsl --set-version Ubuntu 1
 ### JS Lessons: Embedded Replit Editors Not Displaying in Lesson Page(s)
 
 Make sure cookies are enabled!
-
-## Flatiron School Local Environment Setup Lessons
-
-### Initial Setup (Prework)
-
-MacOS:
-
-- [MacOS Environment Setup Introduction](https://github.com/learn-co-curriculum/phase-0-macos-env-introduction)
-- [MacOS System Setup](https://github.com/learn-co-curriculum/phase-0-macos-env-system/blob/main/README.md)
-- [MacOS NodeJS Install](https://github.com/learn-co-curriculum/phase-0-macos-env-nodejs)
-- [Installing Ruby on MacOS](https://github.com/learn-co-curriculum/phase-0-macos-env-ruby) (Ruby/Rails curriculum)
-- [Installing Python on MacOS](https://github.com/learn-co-curriculum/multiphase-macos-env-python) (Python/Flask curriculum)
-- [MacOS Git and GitHub Configuration](https://github.com/learn-co-curriculum/phase-0-macos-env-git-github)
-- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal) (deprecated starting with 2023 cohorts)
-- [MacOS Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-macos-env-verification)
-
-Windows:
-
-- [Windows Environment Setup Introduction](https://github.com/learn-co-curriculum/phase-0-wsl2-env-introduction)
-- [Updating Windows System and Installing Applications](https://github.com/learn-co-curriculum/phase-0-wsl2-env-system)
-- [WSL2 Setup](https://github.com/learn-co-curriculum/phase-0-wsl2-env-windows-subsystem-linux)
-- [Windows NodeJS Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-nodejs)
-- [Windows Ruby Install](https://github.com/learn-co-curriculum/phase-0-wsl2-env-ruby) (Ruby/Rails curriculum)
-- [Windows Python Install](https://github.com/learn-co-curriculum/multiphase-wsl-env-python) (Python curriculum)
-- [Windows Git and GitHub Configuration](https://github.com/learn-co-curriculum/phase-0-wsl2-env-git-github)
-- [Configure the Flatiron Student Portal](https://github.com/learn-co-curriculum/phase-0-configuring-the-flatiron-student-portal) (deprecated starting with 2023 cohorts)
-- [Windows Troubleshooting and Verification](https://github.com/learn-co-curriculum/phase-0-wsl2-env-verification)
-
-### Render Setup (Phase 4)
-
-- [Deploying to Render](https://github.com/learn-co-curriculum/phase-4-deploying-rails-api-to-render) (see the Environment Setup section)
